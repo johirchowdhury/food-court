@@ -49,13 +49,13 @@ h1{
     background-repeat: no-repeat;
 }
 .para{
-   padding-bottom: 150px;
+   padding-bottom: 50px;
    padding-right: 100px;
 }
 h2{
     font-size: 40px;
 }
-.experience{
+.about-me{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -64,7 +64,7 @@ h2{
     text-align: center;
     padding-bottom: 50px;
 }
-.experience-item{
+.about-me-item{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
@@ -73,9 +73,7 @@ h2{
     border-radius: 0px 20px 20px 0px;
 
 }
-#receipe{
-  
-}
+
 #receipe img{
     width: 100%;
 }
