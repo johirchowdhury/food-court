@@ -1,0 +1,92 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+.orange-color{
+    color: orange;
+}
+.top-item{
+    padding-top: 100px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+    
+}
+.top-header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.gradiant-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.middle-bar{
+    height: 500px;
+    padding-left: 20%;
+}
+.middle-bar img{
+    height: 500px;
+    width: 60%;
+}
+.dream{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.para{
+   padding-bottom: 150px;
+   padding-right: 100px;
+}
+h2{
+    font-size: 40px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.header{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 0px 20px 20px 0px;
+
+}
+#receipe{
+  
+}
+#receipe img{
+    width: 100%;
+}
+
+footer{
+    padding-top: 100px;
+    height: 300px;
+    text-align: center;
+    background-color: black;
+    color: gray;
+}
+footer p{
+    color:gray;
+}
