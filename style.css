@@ -2,8 +2,22 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+
+.company-name{
+    text-align: center;
+    font-size: 50px;
+    width: 800px;
+    height: 70px;
+    margin: auto;
+    background-image: radial-gradient(rgb(158, 232, 245), rgb(2, 166, 172));
+    border-radius: 100px;
+    color: white;
+    padding: 30px 0px;
+    box-shadow:0px 0px 10px gray; 
+}
 .top-heading{
     font-size: 60px;
+    color: rgb(109, 109, 109);
 }
 .orange-color{
     color: orange;
@@ -40,7 +54,7 @@ body{
     border-radius: 30px;
     margin-top: 100px;
     font-size: 18px;
-    box-shadow:0px 0px 25px tomato; ;
+    box-shadow:0px 0px 25px tomato; 
 }
 .middle-bar{
     height: 500px;
