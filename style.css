@@ -21,6 +21,9 @@ h1{
     background-repeat: no-repeat;
     
 }
+.top-header img{
+    margin-top: 50px;
+}
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -38,19 +41,24 @@ h1{
 }
 .middle-bar{
     height: 500px;
-    padding-left: 20%;
 }
 .middle-bar img{
-    height: 500px;
-    width: 60%;
+    padding-top: 10%;
+    height: 90%;
+    width: 100%;
+    margin: auto;
 }
 .dream{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
+.about-me-area{
+    padding-top: 100px;
+}
 .para{
+   width: 70%;
+   text-align: justify;
    padding-bottom: 50px;
-   padding-right: 100px;
 }
 h2{
     font-size: 40px;
@@ -64,8 +72,8 @@ h2{
     text-align: center;
     padding-bottom: 50px;
 }
-.about-me-item{
-    width: 40%;
+.section-item{
+    width: 30%;
     margin-left: 5%;
     margin-right: 5%;
     padding:20px;
@@ -88,3 +96,26 @@ footer{
 footer p{
     color:gray;
 }
+.subscriber-area{
+    width: 80%;
+    margin: auto;
+    box-shadow: 10px 10px 60px rgb(201, 201, 201);
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+.subscriber-item{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:20px;
+}
+.subscriber-area h1, .subscriber-area p{
+   font-size: 30px;
+   text-align: center;
+}
+.subscriber-area p{
+    font-size: 20px;
+    text-align: center;
+ }
