@@ -34,11 +34,13 @@ body{
 }
 .gradiant-btn{
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 20px 40px;
     color: white;
     background-image: linear-gradient(orange, tomato);
-    border-radius: 10px;
+    border-radius: 30px;
     margin-top: 100px;
+    font-size: 18px;
+    box-shadow:0px 0px 25px tomato; ;
 }
 .middle-bar{
     height: 500px;
@@ -49,7 +51,7 @@ body{
     margin: auto;
 }
 .about-me{
-    background-image: url(images/shapes/7.png);
+    background-image: url(images/7.png);
     background-repeat: no-repeat;
     padding-top: 0px;
 }
@@ -109,7 +111,7 @@ h2{
     width: 100%;
 }
 .food-review{
-    background-image: url(images/shapes/Frame58.jpg);
+    background-image: url(images/Frame58.jpg);
     background-repeat: no-repeat;
     background-position: left;
     width: 100%;
