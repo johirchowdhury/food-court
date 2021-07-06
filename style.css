@@ -2,7 +2,7 @@ body{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
-h1{
+.top-heading{
     font-size: 60px;
 }
 .orange-color{
@@ -13,16 +13,17 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
     
 }
 .top-header{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    padding-bottom: 100px;
     
 }
 .top-header img{
     margin-top: 50px;
+    
 }
 .half-width{
     width: 50%;
@@ -43,14 +44,14 @@ h1{
     height: 500px;
 }
 .middle-bar img{
-    padding-top: 10%;
-    height: 90%;
+    height: 100%;
     width: 100%;
     margin: auto;
 }
-.dream{
+.about-me{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    padding-top: 0px;
 }
 .about-me-area{
     padding-top: 100px;
@@ -63,27 +64,56 @@ h1{
 h2{
     font-size: 40px;
 }
-.about-me{
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
+.heading{
+    text-align: center;
+    font-size: 45px;
+    color: gray;
 }
-.header{
+.header p{
     text-align: center;
     padding-bottom: 50px;
 }
+
 .section-item{
     width: 30%;
     margin-left: 5%;
     margin-right: 5%;
     padding:20px;
     box-shadow: 10px 10px 40px gray;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 70px 70px 0px 0px;
+
+}
+.section-item img{
+    border-radius: 70px 70px 0px 0px;
+}
+.team-item1{
+    width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding:20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius:  70px 0px  0px 70px;
+
+}
+.team-item2{
+    width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding:20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius:   0px 70px 70px 0px ;
 
 }
 
 #receipe img{
     width: 100%;
+}
+.food-review{
+    background-image: url(images/shapes/Frame58.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    padding-top: 100px;
 }
 
 footer{
@@ -118,4 +148,7 @@ footer p{
 .subscriber-area p{
     font-size: 20px;
     text-align: center;
+ }
+ .food-review{
+     padding-bottom: 100px;
  }
